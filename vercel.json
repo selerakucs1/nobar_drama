@@ -1,1 +1,13 @@
-
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://dramachia.com/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://dramachia.com/:path*"
+    }
+  ]
+}
