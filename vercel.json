@@ -2,8 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "https://dramachia.com/$1",
+      "source": "/",
+      "destination": "https://www.dracinema.com/:path",
       "permanent": true
     }
   ]
