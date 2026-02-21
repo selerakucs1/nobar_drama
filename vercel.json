@@ -1,10 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "redirects": [
+  "rewrites": [
     {
       "source": "/",
-      "destination": "https://www.dracinema.com/:path",
-      "permanent": true
+      "destination": "https://www.dracinema.com/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.dracinema.com/:path*"
     }
   ]
 }
